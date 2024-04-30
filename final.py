@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the dataset
-df = pd.read_csv('C:/Users/Colin/Downloads/team_stats_2003_2023.csv')
+df = pd.read_csv('team_stats_2003_2023.csv')
 
 # Sidebar for filtering data
 st.sidebar.title('Filter Data')
